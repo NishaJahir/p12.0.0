@@ -370,10 +370,11 @@ class NovalnetAssistant extends WizardProvider
             ],
             'novalnetCcInlineForm' =>
             [
-                'type'      => 'checkbox',
-                'options'   => [
-                                'name' => 'NovalnetAssistant.novalnetCcDisplayInlineFormLabel'
-                               ]
+                'type'         => 'checkbox',
+                'defaultValue' => true,
+                'options'      => [
+                                   'name' => 'NovalnetAssistant.novalnetCcDisplayInlineFormLabel'
+                                  ]
             ],
             'novalnetCcStandardStyleLabel' =>
             [
@@ -577,10 +578,11 @@ class NovalnetAssistant extends WizardProvider
                 ],
                 $nnGuaranteedPayment . 'allowB2bCustomer' =>
                 [
-                    'type'      => 'checkbox',
-                    'options'   => [
-                                    'name' => 'NovalnetAssistant.novalnetAllowB2bCustomerLabel'
-                                   ]
+                    'type'         => 'checkbox',
+                    'defaultValue' => true,
+                    'options'      => [
+                                       'name' => 'NovalnetAssistant.novalnetAllowB2bCustomerLabel'
+                                      ]
                 ]
             ];
         }
